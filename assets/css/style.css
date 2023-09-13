@@ -1,0 +1,31 @@
+:root {
+    --navy: #000e54;
+    --beige: #f5f5dc;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--navy);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--beige);
+}
+
+
+h1 {
+    font-size: 200%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    color:#000e54;
+    font-weight: bold;
+}
