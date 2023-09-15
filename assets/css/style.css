@@ -44,11 +44,11 @@ nav ul{
 
 .intro{
     padding: 5px;
-    color: var(--beige);
+    color: var(--navy);
     margin: 7%;
     height: 300px;
     width: 1200px;
-    background-color: var(--navy);
+    /* background-color: var(--navy); */
 }
 
 .intro img{
@@ -64,8 +64,8 @@ nav ul{
 }
 
 .work {
-    background-color: var(--navy);
-    color: var(--beige);
+    /* background-color: var(--navy); */
+    color: var(--navy);
     height: 300px;
     width: 1200px;
     margin: 7%;
@@ -73,8 +73,8 @@ nav ul{
 }
 
 .contact {
-    background-color: var(--navy);
-    color: var(--beige);
+    /* background-color: var(--navy); */
+    color: var(--navy);
     height: 300px;
     width: 1200px;
     margin: 7%;
@@ -88,10 +88,20 @@ h1 {
 }
 
 h2 {
+    font-size: 170%;
+    color: #b11226;
+}
+
+h3 {
     font-size: 150%;
 }
 
 p {
     font-size: 20px;
     line-height: 2;
+}
+
+a {
+    color: var(--beige);
+    text-decoration: none;
 }
