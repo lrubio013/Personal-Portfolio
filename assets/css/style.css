@@ -16,6 +16,10 @@ header {
     font-family: serif;
 }
 
+header a {
+    color: var(--beige)
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -45,7 +49,7 @@ nav ul{
 .intro{
     padding: 5px;
     color: var(--navy);
-    margin: 7%;
+    margin-left: 7%;
     height: 300px;
     width: 1200px;
     /* background-color: var(--navy); */
@@ -67,9 +71,40 @@ nav ul{
     /* background-color: var(--navy); */
     color: var(--navy);
     height: 300px;
-    width: 1200px;
+    width: 1300px;
     margin: 7%;
     padding: 5px;
+}
+
+.work h3 {
+    background-color: var(--beige);
+    color: var(--navy)
+}
+
+.p1 {
+    background-color: var(--navy);
+    color: var(--beige);
+    width: 400px;
+    display: inline-block;
+    height: 300px;
+    margin: 20px;
+}
+
+.p2 {
+    background-color: var(--navy);
+    color: var(--beige);
+    width: 400px;
+    display: inline-block;
+    height: 300px;
+    margin: 20px;
+}
+
+.p3 {
+    background-color: var(--navy);
+    color: var(--beige);
+    width: 400px;
+    display: inline-block;
+    height: 300px;
 }
 
 .contact {
@@ -89,7 +124,7 @@ h1 {
 
 h2 {
     font-size: 170%;
-    color: #b11226;
+    color: #48000a;
 }
 
 h3 {
@@ -102,6 +137,7 @@ p {
 }
 
 a {
-    color: var(--beige);
+    color: var(--navy);
     text-decoration: none;
 }
+
