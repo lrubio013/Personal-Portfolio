@@ -1,6 +1,3 @@
- * {
-    box-sizing: border-box;
-} 
 :root {
     --navy: #000e54;
     --beige: #f5f5dc;
@@ -8,8 +5,6 @@
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 1%;
     background-color: var(--navy);
     color: var(--beige);
@@ -17,45 +12,67 @@ header {
 }
 
 header a {
-    color: var(--beige)
+    color: var(--beige);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 body {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: var(--beige);
     font-family: serif;
     color: var(--navy);
 }
 
-.content{
-    /* width:75% */
-}
-nav ul{
+nav {
     display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    color:var(--beige);
-    font-weight: bold;
+    background-color: var(--navy);
+    flex-wrap: wrap;
 }
 
-.titles{
+ul {
+    display: inline-flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    font-weight: bold;
+    background-color: var(--navy);
+    color: var(--beige);
+}
+
+nav li:hover {
+    color: white;
+    background-color: #48000a;
+    
+}
+
+.titles {
     color: var(--navy);
     text-align: center;
     padding: 50px;
 }
 
 
-.intro{
+.intro {
     padding: 5px;
     color: var(--navy);
-    margin-left: 7%;
+    margin-left: 100px;
     height: 300px;
     width: 1200px;
     /* background-color: var(--navy); */
 }
 
-.intro img{
+.intro img {
     height: auto;
     width: auto;
     display: block;
@@ -70,15 +87,19 @@ nav ul{
 .work {
     /* background-color: var(--navy); */
     color: var(--navy);
-    height: 300px;
-    width: 1300px;
-    margin: 7%;
+     /* height: 300px;
+    width: 1300px; */
+    /* margin-left: 100px; */
+    margin-bottom: 100px; 
     padding: 5px;
+    /* display: flex;
+    flex-wrap: wrap; */
+
 }
 
 .work h3 {
     background-color: var(--beige);
-    color: var(--navy)
+    color: var(--navy);
 }
 
 .p1 {
@@ -90,36 +111,19 @@ nav ul{
     margin: 20px;
 }
 
-.p2 {
-    background-color: var(--navy);
-    color: var(--beige);
-    width: 400px;
-    display: inline-block;
-    height: 300px;
-    margin: 20px;
-}
-
-.p3 {
-    background-color: var(--navy);
-    color: var(--beige);
-    width: 400px;
-    display: inline-block;
-    height: 300px;
-}
-
 .contact {
     /* background-color: var(--navy); */
     color: var(--navy);
     height: 300px;
     width: 1200px;
-    margin: 7%;
+    margin-left: 100px;
     padding: 5px;
 
 }
 
 
 h1 {
-    font-size: 200%; 
+    font-size: 200%;
 }
 
 h2 {
@@ -141,3 +145,25 @@ a {
     text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    body {
+        background-color: aqua;
+    }
+
+    .work {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+
+    .p1 {
+        width: 80%;
+    }
+  }
