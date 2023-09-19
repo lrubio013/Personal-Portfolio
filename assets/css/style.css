@@ -69,7 +69,6 @@ nav li:hover {
     margin-left: 100px;
     height: 300px;
     width: 1200px;
-    /* background-color: var(--navy); */
 }
 
 .intro img {
@@ -85,16 +84,15 @@ nav li:hover {
 }
 
 .work {
-    /* background-color: var(--navy); */
     color: var(--navy);
-     /* height: 300px;
-    width: 1300px; */
-    /* margin-left: 100px; */
     margin-bottom: 100px; 
     padding: 5px;
-    /* display: flex;
-    flex-wrap: wrap; */
+    margin-left: 80px;
+}
 
+.p1:hover {
+    background-color: #48000a;
+    color: var(--beige);
 }
 
 .work h3 {
@@ -111,8 +109,12 @@ nav li:hover {
     margin: 20px;
 }
 
+#w3 {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
 .contact {
-    /* background-color: var(--navy); */
     color: var(--navy);
     height: 300px;
     width: 1200px;
@@ -154,7 +156,7 @@ a {
 
   @media screen and (max-width: 1000px) {
     body {
-        background-color: aqua;
+        
     }
 
     .work {
