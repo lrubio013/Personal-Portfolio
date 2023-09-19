@@ -169,3 +169,19 @@ a {
         width: 80%;
     }
   }
+
+  @media screen and (max-width: 1400px) {
+    body {
+        
+    }
+
+    .work {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+
+    .p1 {
+        width: 100%;
+    }
+  }
