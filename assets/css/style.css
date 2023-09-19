@@ -155,10 +155,6 @@ a {
   }
 
   @media screen and (max-width: 1000px) {
-    body {
-        
-    }
-
     .work {
         display: flex;
         flex-wrap:wrap;
@@ -171,10 +167,6 @@ a {
   }
 
   @media screen and (max-width: 1400px) {
-    body {
-        
-    }
-
     .work {
         display: flex;
         flex-wrap:wrap;
