@@ -11,3 +11,4 @@ I learned how important a professional portfolio can be in the tech world. It's 
 <img src=assets\images\portfolio.png>
 
 ## Link to portfolio
+https://lrubio013.github.io/Personal-Portfolio/
